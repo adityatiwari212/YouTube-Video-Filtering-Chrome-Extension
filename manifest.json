@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Preference Blocker",
+    "version": "1.0",
+    "description": "Block YouTube videos that don't match user preferences",
+    "permissions": ["activeTab", "storage"],
+    
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    }
+  }

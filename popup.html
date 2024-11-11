@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Set Preferences</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    input {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 5px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+    li {
+      padding: 5px;
+      background-color: #f1f1f1;
+      margin: 3px 0;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .remove-btn {
+      background-color: red;
+      color: white;
+      padding: 2px 8px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Set Video Preferences</h3>
+  
+  <input type="text" id="preferenceInput" placeholder="Enter preference" />
+  <button id="addPreference">+</button>
+  
+  <h4>Preferences List</h4>
+  <ul id="preferencesList"></ul>
+
+  <h3>Blocked Keywords</h3>
+  <input type="text" id="blockedKeywordInput" placeholder="Enter blocked keyword" />
+  <button id="addBlockedKeyword">+</button>
+  
+  <h4>Blocked Keywords List</h4>
+  <ul id="blockedKeywordsList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
