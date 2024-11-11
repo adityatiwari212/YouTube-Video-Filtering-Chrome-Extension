@@ -29,7 +29,7 @@ This Chrome extension filters YouTube videos on the homepage (or any video feed)
    - You can either clone this repository or download the ZIP file.
    - If cloning, use the following command:
      ```bash
-     git clone https://github.com/yourusername/youtube-video-filter.git
+     git clone https://github.com/adityatiwari212/YouTube-Video-Filtering-Chrome-Extension
      ```
 
 2. **Install the Extension in Chrome**
@@ -139,7 +139,7 @@ We welcome contributions! Feel free to fork the repository, make changes, and cr
 
 ## **License**
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
